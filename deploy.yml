@@ -32,7 +32,7 @@ spec:
       serviceAccountName: cjoc
       containers:
       - name: cb-training
-        image: gcr.io/core-workshop/helloworld-nodejs:cb-training-2
+        image: gcr.io/core-workshop/helloworld-nodejs:cb-training-4
         resources:
           requests:
             memory: "100Mi"
